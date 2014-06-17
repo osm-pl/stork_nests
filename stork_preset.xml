@@ -6,19 +6,15 @@
 	description="Preset for stork nests"
 	pl.shortdescription="Bocianie gniazda" 
 	pl.description="Szablon ułatwiający tagowanie gniazd"
-	
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0 tagging-preset.xsd" >
 
      	<item name="Nest" pl.name="Gniazdo" type="closedway,node" icon="http://osmapa.pl/bociany2014/favicon.png" >
-     		
-     		
      		<key key="natural" value="birds_nest" />
      		
 			<label text="Nest" pl.text="Gniazdo" />
 			<combo text="Genius" pl.text="Gatunek ptactwa" key="birds_nest" default="stork" >
 				<list_entry value="stork" short_description="Ciconia ciconia" pl.short_description="bocian biały" />
-				
 			</combo>	
 			<combo text="Nest mount" pl.text="Umiejscowienie gniazda" key="nest_mount">
 				<list_entry value="pole" short_description="na słupie" />
@@ -39,7 +35,6 @@
 			</combo>
 			<space/>
 			<check key="power" value_on="pole" text="Tag as power pole?" pl.text="Otagować jako słup energetyczny?" delete_if_empty="true" disable_off="true" />
-				
 		</optional>
-		</item>
+	</item>
 </presets>
