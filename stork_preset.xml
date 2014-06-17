@@ -9,7 +9,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0 tagging-preset.xsd" >
 
-     	<item name="Nest" pl.name="Gniazdo" type="closedway,node" icon="http://osmapa.pl/bociany2014/favicon.png" >
+     	<item name="Nest" pl.name="Gniazdo" type="node" icon="http://osmapa.pl/bociany2014/favicon.png" >
      		<key key="natural" value="birds_nest" />
      		
 			<label text="Nest" pl.text="Gniazdo" />
