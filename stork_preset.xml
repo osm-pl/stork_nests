@@ -33,6 +33,7 @@
 				<list_entry value="empty" short_description="dropped (if only platform left)" pl.short_description="opuszczone (np. została sama platforma)" />
 				<list_entry value="damaged" short_description="(if platform is damage too)" pl.short_description="zniszczone (łącznie z platformą)" />
 			</combo>
+			<space />
 			<label text="Tag as (if pole):" pl.text="Otaguj jako (tylko jeśli słup):" />
 			<check key="power" value_on="pole" text="power pole" pl.text="słup energetyczny" delete_if_empty="true" disable_off="true" />
 			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" delete_if_empty="true" disable_off="true" />
