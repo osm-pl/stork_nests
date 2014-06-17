@@ -13,14 +13,14 @@
      		<key key="natural" value="birds_nest" />
      		
 			<label text="Nest" pl.text="Gniazdo" />
-			<combo text="Genius" pl.text="Gatunek ptactwa" key="birds_nest" default="stork" >
-				<list_entry value="stork" short_description="Ciconia ciconia" pl.short_description="bocian biały" />
+			<combo text="Bird genius" pl.text="Gatunek ptactwa" key="birds_nest" default="stork" >
+				<list_entry value="stork" short_description="White stork (Ciconia ciconia)" pl.short_description="bocian biały" />
 			</combo>	
 			<combo text="Nest mount" pl.text="Umiejscowienie gniazda" key="nest_mount">
-				<list_entry value="pole" pl.short_description="na słupie" />
-				<list_entry value="tree" pl.short_description="na drzewie" />
-				<list_entry value="chimney" pl.short_description="na kominie" />
-				<list_entry value="roof" pl.short_description="na dachu" />
+				<list_entry value="pole" short_description="on pole" pl.short_description="na słupie" />
+				<list_entry value="tree" short_description="on tree" pl.short_description="na drzewie" />
+				<list_entry value="chimney" short_description="on chimney" pl.short_description="na kominie" />
+				<list_entry value="roof" short_description="on roof" pl.short_description="na dachu" />
 			</combo>
 			<combo text="Platform" pl.text="Platforma" key="platform">
 				<list_entry value="yes" />
@@ -29,12 +29,12 @@
 			
 		<optional>
 			<text text="Image (URL)" pl.text="Zdjęcie (URL)" key="image" />	
-			<combo text="Nest status" pl.text="Stan gniazda (opcjonalnie)" key="nest_status:2014">
+			<combo text="Nest status (optional)" pl.text="Stan gniazda (opcjonalnie)" key="nest_status:2014">
 				<list_entry value="empty" short_description="dropped (if only platform left)" pl.short_description="opuszczone (np. została sama platforma)" />
 				<list_entry value="damaged" short_description="(if platform is damage too)" pl.short_description="zniszczone (łącznie z platformą)" />
 			</combo>
 			<space />
-			<label text="Tag as (if pole):" pl.text="Otaguj jako (tylko jeśli słup):" />
+			<label text="Tag as (only if pole):" pl.text="Otaguj jako (tylko jeśli słup):" />
 			<check key="power" value_on="pole" text="power pole" pl.text="słup energetyczny" delete_if_empty="true" disable_off="true" />
 			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" delete_if_empty="true" disable_off="true" />
 		</optional>
