@@ -17,10 +17,10 @@
 				<list_entry value="stork" short_description="Ciconia ciconia" pl.short_description="bocian biały" />
 			</combo>	
 			<combo text="Nest mount" pl.text="Umiejscowienie gniazda" key="nest_mount">
-				<list_entry value="pole" short_description="na słupie" />
-				<list_entry value="tree" short_description="na drzewie" />
-				<list_entry value="chimney" short_description="na kominie" />
-				<list_entry value="roof" short_description="na dachu" />
+				<list_entry value="pole" pl.short_description="na słupie" />
+				<list_entry value="tree" pl.short_description="na drzewie" />
+				<list_entry value="chimney" pl.short_description="na kominie" />
+				<list_entry value="roof" pl.short_description="na dachu" />
 			</combo>
 			<combo text="Platform" pl.text="Platforma" key="platform">
 				<list_entry value="yes" />
