@@ -30,8 +30,6 @@
 				<list_entry value="yes" />
 				<list_entry value="no" />
 			</combo>
-							
-			
 			
 		<optional>
 			<text text="Image (URL)" pl.text="Zdjęcie (URL)" key="image" />	
@@ -42,13 +40,6 @@
 			<space/>
 			<check key="power" value_on="pole" text="Tag as power pole?" pl.text="Otagować jako słup energetyczny?" delete_if_empty="true" disable_off="true" />
 				
-				 
-			 
-				
-				
 		</optional>
 		</item>
-		
-		
-   
 </presets>
