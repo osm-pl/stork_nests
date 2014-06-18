@@ -6,37 +6,40 @@
 	description="Preset for stork nests"
 	pl.shortdescription="Bocianie gniazda" 
 	pl.description="Szablon ułatwiający tagowanie gniazd"
+	uk.shortdescription="Гнізда Лелеки" 
+	uk.description="Шаблон для картування гнізд Лелеки"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0 tagging-preset.xsd" >
 
-     	<item name="Nest" pl.name="Gniazdo" type="node" icon="http://osmapa.pl/bociany2014/favicon.png" >
+     	<item name="Nest" pl.name="Gniazdo" uk.name="Гніздо" ru.name="Гнездо" type="node" icon="http://osmapa.pl/bociany2014/favicon.png" >
      		<key key="natural" value="birds_nest" />
      		
-			<label text="Nest" pl.text="Gniazdo" />
-			<combo text="Bird genius" pl.text="Gatunek ptactwa" key="birds_nest" default="stork" >
-				<list_entry value="stork" short_description="White stork (Ciconia ciconia)" pl.short_description="bocian biały" />
+			<label text="Nest" pl.text="Gniazdo" uk.text="Гніздо" ru.text="Гнездо" />
+			<combo text="Bird genius" pl.text="Gatunek ptactwa" uk.text="Вид птаха" ru.text="Вид птицы" key="birds_nest" default="stork" >
+				<list_entry value="stork" short_description="White stork (Ciconia ciconia)" pl.short_description="bocian biały" uk.short_description="Біла Лелека" ru.short_description="Белый Аист" />
 			</combo>	
-			<combo text="Nest mount" pl.text="Umiejscowienie gniazda" key="nest_mount">
-				<list_entry value="pole" short_description="on pole" pl.short_description="na słupie" />
-				<list_entry value="tree" short_description="on tree" pl.short_description="na drzewie" />
-				<list_entry value="chimney" short_description="on chimney" pl.short_description="na kominie" />
-				<list_entry value="roof" short_description="on roof" pl.short_description="na dachu" />
+			<combo text="Nest mount" pl.text="Umiejscowienie gniazda" uk.text="Розташування гнізда" ru.text="Размещение гнезда" key="nest_mount">
+				<list_entry value="pole" short_description="on pole" pl.short_description="na słupie" uk.short_description="на стовбі" ru.short_description="на столбе" />
+				<list_entry value="tree" short_description="on tree" pl.short_description="na drzewie" uk.short_description="на дереві" ru.short_description="на дереве" />
+				<list_entry value="chimney" short_description="on chimney" pl.short_description="na kominie" uk.short_description="на трубі" ru.short_description="на трубе" />
+				<list_entry value="roof" short_description="on roof" pl.short_description="na dachu" uk.short_description="на даху" ru.short_description="на крыше" />
+				<list_entry value="water_tower" short_description="on water tower" pl.short_description="na wieży ciśnień" uk.short_description="на водонапірній вежі" ru.short_description="на водонапорной башне" />
 			</combo>
-			<combo text="Platform" pl.text="Platforma" key="platform">
+			<combo text="Platform" pl.text="Platforma" uk.text="Платформа" ru.text="Платформа" key="platform">
 				<list_entry value="yes" />
 				<list_entry value="no" />
 			</combo>
 			
 		<optional>
-			<text text="Image (URL)" pl.text="Zdjęcie (URL)" key="image" />	
-			<combo text="Nest status (optional)" pl.text="Stan gniazda (opcjonalnie)" key="nest_status:2014">
-				<list_entry value="empty" short_description="dropped (if only platform left)" pl.short_description="opuszczone (np. została sama platforma)" />
-				<list_entry value="damaged" short_description="(if platform is damage too)" pl.short_description="zniszczone (łącznie z platformą)" />
+			<text text="Image (URL)" pl.text="Zdjęcie (URL)" uk.text="Світлина (URL)" ru.text="Фотография (URL)" key="image" />	
+			<combo text="Nest status (optional)" pl.text="Stan gniazda (opcjonalnie)" uk.text="Стан гнізда (додатково)" ru.text="Состояние гнезда (дополнительно)" key="nest_status:2014">
+				<list_entry value="empty" short_description="dropped (if only platform left)" pl.short_description="opuszczone (np. została sama platforma)" uk.short_description="залишине (напр. лишилася сама платформа)" ru.short_description="покинутое (напр. осталась только платформа)" />
+				<list_entry value="damaged" short_description="(if platform is damage too)" pl.short_description="zniszczone (łącznie z platformą)" uk.short_description="знищене (включаючи платформу)" ru.short_description="разрушенное (в том числе и платформа)" />
 			</combo>
 			<space />
-			<label text="Tag as (only if pole):" pl.text="Otaguj jako (dotyczy tylko słupa):" />
-			<check key="power" value_on="pole" text="power pole" pl.text="słup energetyczny" delete_if_empty="true" disable_off="true" />
-			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" delete_if_empty="true" disable_off="true" />
+			<label text="Tag as (only if pole):" pl.text="Otaguj jako (dotyczy tylko słupa):" uk.text="Тип опори (якщо на опорі):" ru.text="Тип опоры (если на опоре):" />
+			<check key="power" value_on="pole" text="power pole" pl.text="słup energetyczny" uk.text="ЛЕП" ru.text="ЛЭП" delete_if_empty="true" disable_off="true" />
+			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" uk.text="Зв'язок" ru.text="Связь" delete_if_empty="true" disable_off="true" />
 		</optional>
 	</item>
 </presets>
