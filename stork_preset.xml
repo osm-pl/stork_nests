@@ -11,10 +11,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0 tagging-preset.xsd" >
 
-     	<item name="Nest" pl.name="Gniazdo" uk.name="Гніздо" ru.name="Гнездо" type="node" icon="http://osmapa.ru/bociany2014/favicon.png" >
+     	<item name="Nest" pl.name="Gniazdo" uk.name="Гніздо" ru.name="Гнездо" type="node" icon="http://osmapa.pl/bociany2014/favicon.png" >
      		<key key="natural" value="birds_nest" />
      		
-			<label text="Nest" pl.text="Gniazdo" uk.text="Гніздо" ru.text="Гнездо" />
+			<label text="Nest" pl.text="Gniazdo" uk.text="Гніздо" ru.text="Гнездо"/>
 			<combo text="Bird genius" pl.text="Gatunek ptactwa" uk.text="Вид птаха" ru.text="Вид птицы" key="birds_nest" default="stork" >
 				<list_entry value="stork" short_description="White stork (Ciconia ciconia)" pl.short_description="bocian biały" uk.short_description="Біла Лелека" ru.short_description="Белый Аист" />
 			</combo>	
