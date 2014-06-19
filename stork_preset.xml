@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
 	author="zbigniew[at]openstreetmap.pl"
-	version="2014.6.19"
+	version="2014.6.17"
 	shortdescription="Stork nests" 
 	description="Preset for stork nests"
 	pl.shortdescription="Bocianie gniazda" 
@@ -29,18 +29,19 @@
 				<list_entry value="yes" />
 				<list_entry value="no" />
 			</combo>
-			
+
 		<optional>
-			<text text="Image (URL)" pl.text="Zdjęcie (URL)" uk.text="Світлина (URL)" ru.text="Фотография (URL)" key="image" />	
 			<combo text="Nest status (optional)" pl.text="Stan gniazda (opcjonalnie)" uk.text="Стан гнізда (додатково)" ru.text="Состояние гнезда (дополнительно)" key="nest_status:2014">
 				<list_entry value="empty" short_description="dropped (if only platform left)" pl.short_description="opuszczone (np. została sama platforma)" uk.short_description="залишине (напр. лишилася сама платформа)" ru.short_description="покинутое (напр. осталась только платформа)" />
 				<list_entry value="damaged" short_description="(if platform is damage too)" pl.short_description="zniszczone (łącznie z platformą)" uk.short_description="знищене (включаючи платформу)" ru.short_description="разрушенное (в том числе и платформа)" />
 			</combo>
 			<space />
+			<text text="Image (URL)" pl.text="Zdjęcie (URL)" uk.text="Світлина (URL)" ru.text="Фотография (URL)" key="image" />
+			<space />
 			<label text="Tag as (only if pole):" pl.text="Otaguj jako (dotyczy tylko słupa):" uk.text="Тип опори (якщо на опорі):" ru.text="Тип опоры (если на опоре):" />
 			<check key="power" value_on="pole" text="power pole" pl.text="słup energetyczny" uk.text="ЛЕП" ru.text="ЛЭП" delete_if_empty="true" disable_off="true" />
-			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" uk.text="зв'язок" ru.text="связь" delete_if_empty="true" disable_off="true" />
+			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" uk.text="Зв'язок" ru.text="Связь" delete_if_empty="true" disable_off="true" />
 			<check key="highway" value_on="stret_lamp" text="stret lamp" pl.text="latarnia" uk.text="освітлення" ru.text="освещение" delete_if_empty="true" disable_off="true" />
-		</optional>
+			</optional>
 	</item>
 </presets>
