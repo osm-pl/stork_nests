@@ -40,7 +40,7 @@
 			<label text="Tag as (only if pole):" pl.text="Otaguj jako (dotyczy tylko słupa):" uk.text="Тип опори (якщо на опорі):" ru.text="Тип опоры (если на опоре):" />
 			<check key="power" value_on="pole" text="power pole" pl.text="słup energetyczny" uk.text="ЛЕП" ru.text="ЛЭП" delete_if_empty="true" disable_off="true" />
 			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" uk.text="зв'язок" ru.text="связь" delete_if_empty="true" disable_off="true" />
-			<check key="highway" value_on="stret_lamp" text="stret lamp" pl.text="latarnia" uk.text="освітленя" ru.text="освещение" delete_if_empty="true" disable_off="true" />
+			<check key="highway" value_on="stret_lamp" text="stret lamp" pl.text="latarnia" uk.text="освітлення" ru.text="освещение" delete_if_empty="true" disable_off="true" />
 		</optional>
 	</item>
 </presets>
