@@ -24,7 +24,7 @@
 				<list_entry value="chimney" short_description="on chimney" pl.short_description="na kominie" uk.short_description="на трубі" ru.short_description="на трубе" />
 				<list_entry value="roof" short_description="on roof" pl.short_description="na dachu" uk.short_description="на даху" ru.short_description="на крыше" />
 				<list_entry value="water_tower" short_description="on water tower" pl.short_description="na wieży ciśnień" uk.short_description="на водонапірній вежі" ru.short_description="на водонапорной башне" />
-				<list_entry value="lamp" short_description="on street lamp" pl.short_description="na latarni" uk.short_description="на вуличному ліхтарі" ru.short_description="на уличном фонаре" />
+				
 			</combo>
 			<combo text="Platform" pl.text="Platforma" uk.text="Платформа" ru.text="Платформа" key="platform">
 				<list_entry value="yes" />
