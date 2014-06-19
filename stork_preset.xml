@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
 	author="zbigniew[at]openstreetmap.pl"
-	version="2014.6.17"
+	version="2014.6.19"
 	shortdescription="Stork nests" 
 	description="Preset for stork nests"
 	pl.shortdescription="Bocianie gniazda" 
@@ -19,11 +19,12 @@
 				<list_entry value="stork" short_description="White stork (Ciconia ciconia)" pl.short_description="bocian biały" uk.short_description="Біла Лелека" ru.short_description="Белый Аист" />
 			</combo>	
 			<combo text="Nest mount" pl.text="Umiejscowienie gniazda" uk.text="Розташування гнізда" ru.text="Размещение гнезда" key="nest_mount">
-				<list_entry value="pole" short_description="on pole" pl.short_description="na słupie" uk.short_description="на стовбі" ru.short_description="на столбе" />
+				<list_entry value="pole" short_description="on pole" pl.short_description="na słupie" uk.short_description="на стовпі" ru.short_description="на столбе" />
 				<list_entry value="tree" short_description="on tree" pl.short_description="na drzewie" uk.short_description="на дереві" ru.short_description="на дереве" />
 				<list_entry value="chimney" short_description="on chimney" pl.short_description="na kominie" uk.short_description="на трубі" ru.short_description="на трубе" />
 				<list_entry value="roof" short_description="on roof" pl.short_description="na dachu" uk.short_description="на даху" ru.short_description="на крыше" />
 				<list_entry value="water_tower" short_description="on water tower" pl.short_description="na wieży ciśnień" uk.short_description="на водонапірній вежі" ru.short_description="на водонапорной башне" />
+				<list_entry value="lamp" short_description="on street lamp" pl.short_description="na latarnia" uk.short_description="на вуличному ліхтарі" ru.short_description="на уличном фонаре" />
 			</combo>
 			<combo text="Platform" pl.text="Platforma" uk.text="Платформа" ru.text="Платформа" key="platform">
 				<list_entry value="yes" />
