@@ -24,7 +24,6 @@
 				<list_entry value="chimney" short_description="on chimney" pl.short_description="na kominie" uk.short_description="на трубі" ru.short_description="на трубе" />
 				<list_entry value="roof" short_description="on roof" pl.short_description="na dachu" uk.short_description="на даху" ru.short_description="на крыше" />
 				<list_entry value="water_tower" short_description="on water tower" pl.short_description="na wieży ciśnień" uk.short_description="на водонапірній вежі" ru.short_description="на водонапорной башне" />
-				<list_entry value="lamp" short_description="on street lamp" pl.short_description="na latarnia" uk.short_description="на вуличному ліхтарі" ru.short_description="на уличном фонаре" />
 			</combo>
 			<combo text="Platform" pl.text="Platforma" uk.text="Платформа" ru.text="Платформа" key="platform">
 				<list_entry value="yes" />
@@ -40,7 +39,8 @@
 			<space />
 			<label text="Tag as (only if pole):" pl.text="Otaguj jako (dotyczy tylko słupa):" uk.text="Тип опори (якщо на опорі):" ru.text="Тип опоры (если на опоре):" />
 			<check key="power" value_on="pole" text="power pole" pl.text="słup energetyczny" uk.text="ЛЕП" ru.text="ЛЭП" delete_if_empty="true" disable_off="true" />
-			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" uk.text="Зв'язок" ru.text="Связь" delete_if_empty="true" disable_off="true" />
+			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" uk.text="зв'язок" ru.text="связь" delete_if_empty="true" disable_off="true" />
+			<check key="highway" value_on="stret_lamp" text="stret lamp" pl.text="latarnia" uk.text="освітленя" ru.text="освещение" delete_if_empty="true" disable_off="true" />
 		</optional>
 	</item>
 </presets>
