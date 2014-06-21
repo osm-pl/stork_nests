@@ -26,7 +26,7 @@
 				<list_entry value="water_tower" short_description="on water tower" pl.short_description="na wieży ciśnień" uk.short_description="на водонапірній вежі" ru.short_description="на водонапорной башне" />
 				
 			</combo>
-			<combo text="Platform" pl.text="Platforma" uk.text="Платформа" ru.text="Платформа" key="nest_platform">
+			<combo text="Platform" pl.text="Platforma" uk.text="Платформа" ru.text="Платформа" key="platform">
 				<list_entry value="yes" />
 				<list_entry value="no" />
 			</combo>
