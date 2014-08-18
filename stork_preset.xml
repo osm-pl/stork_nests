@@ -32,8 +32,8 @@
 			</combo>
 			
 		<optional>
-			<combo text="Nest status (optional)" pl.text="Stan gniazda (opcjonalnie)" uk.text="Стан гнізда (додатково)" ru.text="Состояние гнезда (дополнительно)" key="nest_status:2014">
-				<list_entry value="settled" short_description="settled" pl.short_description="zasiedlone (w danym roku)" />
+			<combo text="Nest status (optional)" pl.text="Stan gniazda (w bieżącym roku)" uk.text="Стан гнізда (додатково)" ru.text="Состояние гнезда (дополнительно)" key="nest_status:2014">
+				<list_entry value="settled" short_description="settled" pl.short_description="zasiedlone" />
 				<list_entry value="empty" short_description="dropped (if only platform left)" pl.short_description="opuszczone (np. została sama platforma)" uk.short_description="залишине (напр. лишилася сама платформа)" ru.short_description="покинутое (напр. осталась только платформа)" />
 				<list_entry value="damaged" short_description="(if platform is damage too)" pl.short_description="zniszczone (łącznie z platformą)" uk.short_description="знищене (включаючи платформу)" ru.short_description="разрушенное (в том числе и платформа)" />
 			</combo>
