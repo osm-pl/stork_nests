@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
 	author="zbigniew[at]openstreetmap.pl"
-	version="2014.6.19"
+	version="2014.8.18"
 	shortdescription="Stork nests" 
 	description="Preset for stork nests"
 	pl.shortdescription="Bocianie gniazda" 
@@ -26,13 +26,14 @@
 				<list_entry value="water_tower" short_description="on water tower" pl.short_description="na wieży ciśnień" uk.short_description="на водонапірній вежі" ru.short_description="на водонапорной башне" />
 				
 			</combo>
-			<combo text="Platform" pl.text="Platforma" uk.text="Платформа" ru.text="Платформа" key="nest_platform">
+			<combo text="Artificial platform" pl.text="Platforma" uk.text="Платформа" ru.text="Платформа" key="nest_platform">
 				<list_entry value="yes" />
 				<list_entry value="no" />
 			</combo>
 			
 		<optional>
 			<combo text="Nest status (optional)" pl.text="Stan gniazda (opcjonalnie)" uk.text="Стан гнізда (додатково)" ru.text="Состояние гнезда (дополнительно)" key="nest_status:2014">
+				<list_entry value="settled" short_description="settled" pl.short_description="zasiedlone (w danym roku)" />
 				<list_entry value="empty" short_description="dropped (if only platform left)" pl.short_description="opuszczone (np. została sama platforma)" uk.short_description="залишине (напр. лишилася сама платформа)" ru.short_description="покинутое (напр. осталась только платформа)" />
 				<list_entry value="damaged" short_description="(if platform is damage too)" pl.short_description="zniszczone (łącznie z platformą)" uk.short_description="знищене (включаючи платформу)" ru.short_description="разрушенное (в том числе и платформа)" />
 			</combo>
