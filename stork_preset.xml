@@ -45,5 +45,5 @@
 			<check key="communication" value_on="pole" text="communication pole" pl.text="słup telekomunikacyjny" uk.text="зв'язок" ru.text="связь" delete_if_empty="true" disable_off="true" />
 			<check key="highway" value_on="street_lamp" text="street lamp" pl.text="latarnia" uk.text="освітлення" ru.text="освещение" delete_if_empty="true" disable_off="true" />
 		</optional>
-	</item>
+	</item> 
 </presets>
