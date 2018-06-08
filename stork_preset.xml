@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
 	author="zbigniew[at]openstreetmap.pl"
-	version="2017.4.12"
+	version="2018.6.7"
 	shortdescription="Stork nests" 
 	description="Preset for stork nests"
 	pl.shortdescription="Bocianie gniazda" 
@@ -32,7 +32,7 @@
 			</combo>
 			
 		<optional>
-			<combo text="Nest status (optional)" pl.text="Stan gniazda (w bieżącym roku)" uk.text="Стан гнізда (додатково)" ru.text="Состояние гнезда (дополнительно)" key="nest_status:2017">
+			<combo text="Nest status (optional)" pl.text="Stan gniazda (w bieżącym roku)" uk.text="Стан гнізда (додатково)" ru.text="Состояние гнезда (дополнительно)" key="nest_status:2018">
 				<list_entry value="settled" short_description="settled" pl.short_description="zasiedlone" />
 				<list_entry value="empty" short_description="dropped (if only platform left)" pl.short_description="opuszczone (np. została sama platforma)" uk.short_description="залишине (напр. лишилася сама платформа)" ru.short_description="покинутое (напр. осталась только платформа)" />
 				<list_entry value="damaged" short_description="(if platform is damage too)" pl.short_description="zniszczone (łącznie z platformą)" uk.short_description="знищене (включаючи платформу)" ru.short_description="разрушенное (в том числе и платформа)" />
